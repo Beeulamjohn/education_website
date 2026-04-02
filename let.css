@@ -1,0 +1,714 @@
+.background{
+    width: 100%;
+    scroll-behavior: smooth;
+    
+}
+.way{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    scroll-behavior: smooth;
+    display: flex;
+}
+.image{
+    margin-left: 100px;
+}
+.loss{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 55px;
+    margin-left: 150px;
+}
+.loss a {
+    color: black;               
+    text-decoration: none;      
+    transition: color 0.3s;     
+}
+
+.loss a:hover {
+    color: red; 
+              
+}
+
+.button{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.but{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(17, 62, 90);
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-around;
+}
+.move{
+    width: 900px;
+    height: 400px;
+    transition: transform 0.2s ease-out;
+    
+}
+.account{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.cost{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.keep{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.most{
+   width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.look{
+    display: flex;
+}
+.lay{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.very{
+     width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.note{
+    display: flex;
+}
+.port{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.to{
+     width: 350px;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.tell{
+    display: flex;
+}
+.gift{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.sold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.power{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 55px;
+    padding-top: 15px;
+    
+}
+.by{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.app{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.toll{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.wood{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.what{
+    width: 100%;
+    height: 120px;
+    
+}
+.offer{
+    margin-left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.one{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(17, 62, 90);
+    scroll-behavior: smooth;
+    display: flex;
+}
+.who{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(17, 62, 90);
+    scroll-behavior: smooth;
+    display: flex;
+}
+.point{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.fall{
+    margin-left: 100px;
+}
+.com{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.neck{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.saying{
+    width: 190px;
+    height: 55px;
+    background-color: rgb(17, 62, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+
+}
+.out{
+   margin-left: 50px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white; 
+}
+.line{
+margin-left: 50px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.like{
+    width: 190px;
+    height: 55px;
+    background-color: rgb(17, 62, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+}
+.fee{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.jet{
+    margin-left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+   padding-top: 40px;
+
+}
+.so{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 62, 90);
+    scroll-behavior: smooth;
+}
+
+/* left column */
+.mess{
+    width: 500px;
+}
+
+/* right column */
+.miss{
+    width: 500px;
+}
+
+/* questions style */
+.need, .rose, .any, .pay, .con, .call{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-right: 100px;
+    color: white;
+}
+
+/* answers style */
+.more, .then, .wol, .roll, .jo, .sa{
+    font-size: 19px;
+    margin-top: 8px;
+    line-height: 1.6;
+    color: white;
+}
+.day{
+    width: 100%;
+    height: 120px;
+}
+
+.tion{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+/* TEXT + IMAGE SECTION */
+
+.late{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    scroll-behavior: smooth;
+    background-color: rgb(17, 62, 90);
+    height: 820px;
+}
+
+.ne{
+    width:50%;
+}
+
+.fire{
+    font-size:20px;
+    line-height:28px;
+    margin-left: 100px;
+    color: white;
+    padding-top: 20px;
+}
+
+.cash{
+    width:40%;
+}
+
+.layer img{
+    margin-left: 150px;
+}
+
+/* CONTACT TITLE */
+
+.cont{
+    text-align:center;
+    margin-top:60px;
+   
+}
+
+.ask{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.feat{
+    margin-top:10px;
+    font-size:16px;
+    color:gray;
+}
+
+/* FORM SECTION */
+
+.bat{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.kay,
+.nay,
+.pipe,
+.clay{
+    font-size:20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.me,
+.were,
+.read,
+.rell{
+    width:230px;
+    height:38px;
+    margin-top:8px;
+    padding-left:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.rol{
+    width:230px;
+    height:42px;
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+    margin-left: 650px;
+}
+
+
+
+/* FOOTER */
+
+.sad{
+    width:100%;
+    background-color: rgb(17, 62, 90);
+    margin-top:80px;
+    padding:40px 0;
+    display:flex;
+    justify-content:space-around;
+    scroll-behavior: smooth;
+}
+
+.ray{
+    font-size:28px;
+    font-weight:bold;
+    color: white;
+}
+
+.lose{
+    margin-top:10px;
+    font-size:20px;
+    color: white;
+}
+
+.pot{
+    margin-top:10px;
+    display: flex;
+}
+
+.pot img{
+    margin-right:10px;
+}
+
+.vibe{
+    font-size:20px;
+    line-height:26px;
+    color: white;
+}
+
+
+
+
+.what{
+    width: 100%;
+    height: 120px;
+    
+}
+.offer{
+    margin-left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.one{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(17, 62, 90);
+    display: flex;
+    scroll-behavior: smooth;
+}
+.who{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(17, 62, 90);
+    display: flex;
+    scroll-behavior: smooth;
+}
+.point{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.fall{
+    margin-left: 100px;
+}
+.com{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.neck{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.saying{
+    width: 190px;
+    height: 55px;
+    background-color: rgb(17, 62, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+
+}
+.out{
+   margin-left: 50px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white; 
+}
+.line{
+margin-left: 50px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.like{
+    width: 190px;
+    height: 55px;
+    background-color: rgb(17, 62, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+}
+
+
+
+
+.day{
+    width: 100%;
+    height: 120px;
+}
+
+.tion{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+/* TEXT + IMAGE SECTION */
+
+.late{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    scroll-behavior: smooth;
+    background-color: rgb(17, 62, 90);
+    height: 820px;
+}
+
+.ne{
+    width:50%;
+}
+
+.fire{
+    font-size:20px;
+    line-height:28px;
+    margin-left: 100px;
+    color: white;
+    padding-top: 20px;
+}
+
+.cash{
+    width:40%;
+}
+
+.layer img{
+    margin-left: 150px;
+}
+
+
+
+.cont{
+    text-align:center;
+    margin-top:150px;
+    
+   
+}
+
+.ask{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.feat{
+    margin-top:10px;
+    font-size:16px;
+    color:gray;
+}
+
+/* FORM SECTION */
+
+.bat{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.kay,
+.nay,
+.pipe,
+.clay{
+    font-size:20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.me,
+.were,
+.read,
+.rell{
+    width:230px;
+    height:38px;
+    margin-top:8px;
+    padding-left:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.rol{
+    width:230px;
+    height:42px;
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+    margin-left: 650px;
+}
+
+
+
+/* FOOTER */
+
+.sad{
+    width:100%;
+    background-color: rgb(17, 62, 90);
+    margin-top:80px;
+    padding:40px 0;
+    display:flex;
+    justify-content:space-around;
+    scroll-behavior: smooth;
+}
+
+.ray{
+    font-size:28px;
+    font-weight:bold;
+    color: white;
+}
+
+.lose{
+    margin-top:10px;
+    font-size:20px;
+    color: white;
+}
+
+.pot{
+    margin-top:10px;
+}
+
+.pot img{
+    margin-right:10px;
+}
+
+.vibe{
+    font-size:20px;
+    line-height:26px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/let.css' %}">
+</head>
+    <body class="background">
+    <div class="what">
+        <div class="offer">
+           Courses We Offered
+        </div>
+    </div>
+   
+   <div class="one">
+    <div class="boot">
+     <div class="point">
+        <img src="{% static 'images/commerce.jpg' %}" height="300px" width="400px" style="border-radius: 10px">
+     </div>
+    </div>
+    <div class="hell">
+        <div class="com">
+           <u>Individual Tution</u>
+        </div>
+      <div class="neck">
+        
+        Get one-to-one tutoring prpgram for +1and+2 Accountancy, Bussiness Studies <br>and Economics,
+        Personalized tution for the students for a bettter learning<br> experience. Interactive online 
+        Sessions,Screen-sharing for numerical <br>problems,and recorded sessions for revision.
+        Emphasize Personalized <br>attention,flexibility,comfort,improved grades,tailored,expert.<br>
+        We provide online tutoring assuring 100% quality. <br>
+
+    <a href="{% url 'contact' %}">
+    <input type="button" class="like" value="Enquire Now">
+    </a>
+
+      </div>
+      
+    </div>
+   </div>
+   <div class="who">
+     <div class="vest">
+        <div class="fall">
+            <img src="{% static 'images/best.jpg' %}" height="300px" width="400px" style="border-radius: 10px">
+
+        </div>
+     </div>
+    <div class="gain">
+        <div class="out">
+            <u>Foundation Progarms</u>
+        </div>
+        <div class="line">
+            The foundation course is a design classes 5 to 8 strengthen their basics in various<br>
+            challenging subject whether your child struggles with Mathematics. We provide the <br>
+            one-on-one online lessons to help them improve and gain confidence. We help students <br>
+            overcome their fear of math by breaking down complex formulas into easy-to-understand <br>
+            steps.<br>
+
+    <a href="{% url 'contact' %}">
+    <input type="button" class="like" value="Enquire Now">
+    </a>
+        </div>
+    </div>
+   </div>
+
+</body>
+</html>

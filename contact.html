@@ -1,0 +1,79 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/let.css' %}">
+<script src="{% static 'js/email-link.js' %}"></script>
+</head>
+    <body class="background">
+        <div class="cont">
+    <div class="ask">
+        For Admission & and All class Contact Us
+    </div>
+    <div class="feat">
+        Get in touch for personlized tuition class inquiries and support
+    </div>
+   </div>
+  <form>
+   <div class="bat">
+    <div class="kay">
+        Student Full Name<br>
+        <input type="text" class="me" placeholder="Your First Name Here">
+    </div><br>
+    <div class="nay">
+        Student Class<br>
+        <input type="text" class="were" placeholder="Student class">
+    </div>
+    <div class="pipe">
+        Student Syllabus<br>
+        <input type="text" class="read" placeholder="Student Syllabus">
+    </div>
+    <div class="clay">
+        Parents Whatsapp Number<br>
+        <input type="number" class="rell" placeholder="Enter Contact Number"><br><br>
+    </div>
+   </div>
+   <a href="{% url 'success' %}"><input type="button" class="rol" value="Submit Your Inquiry Now"></a>
+
+   <div class="sad">
+    <div class="per">
+        <div class="ray">
+            <u>Education</u>
+        </div><br>
+        <div class="lose">
+            Providing tailored tuition for +1 and +2 commerce <br>and 5 to 8 mathematics
+        </div>
+        <div class="pot">
+<div class="instagram-logo">
+    <a href="https://www.instagram.com/accountxacademy?igsh=MWp6cGQyZGJqY3lkMg==/" target="_blank" title="Follow us on Instagram">
+        <img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" width="40" height="40">
+    </a>
+</div>
+<div class="email-logo">
+    <a href="mailto:accxacademy@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you">
+        <img src="{% static 'images/email-icon.png' %}" alt="Email" width="40" height="40">
+    </a>
+</div>
+
+<div class="whatsapp-logo">
+    <a href="https://wa.me/919497866505?text=Hello%20I%20want%20to%20contact%20you" target="_blank">
+        <img src="{% static 'images/whatsapp-icon.png' %}" alt="WhatsApp" width="40" height="40">
+    </a>
+</div>
+        </div>
+    </div>
+    <div class="pine">
+    <div class="vibe">
+        FOR ADMISSION ENQUIRY<br>
+        +91 9497866505<br>
+        accxacademy@gmail.com<br><br>
+
+        © 2026. All rights reserved.
+    </div>
+   </div>
+
+ 
+   </div>
+ </form>
+
+</body>
+</html>

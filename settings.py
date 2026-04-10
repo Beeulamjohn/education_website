@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'education_website.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
@@ -121,4 +121,5 @@ STATIC_URL = '/static/'
 import os
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ]
